@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ImplicitIntents</string>
+    <string-array name="intents">
+        <item></item>
+        <item>Open Browser</item>
+        <item>Dial</item>
+        <item>Show Map</item>
+        <item>Search Map</item>
+        <item>Take Picture</item>
+        <item>Show Contacts</item>
+
+    </string-array>
+</resources>
