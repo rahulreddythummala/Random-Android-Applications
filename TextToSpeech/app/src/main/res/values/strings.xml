@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Text To Speech</string>
+    <string name="message">Text to speech is not available!</string>
+    <string name="prompt">Please speak to see text...</string>
+    <string name="title">Text to Speech and Speech to Text</string>
+    <string name="hintinfo">Enter a phrase to convert to speech</string>
+    <string name="outlabel">Speech will appear here</string>
+    <string name="spklabel">Speak</string>
+    <string name="listlabel">Listen</string>
+
+</resources>

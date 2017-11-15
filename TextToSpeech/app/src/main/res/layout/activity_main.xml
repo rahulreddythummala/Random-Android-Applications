@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.niu.cs.z1795447.texttospeech.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="@string/title"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editTextIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/hintinfo" />
+
+    <TextView
+        android:id="@+id/textViewOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/outlabel"
+        android:textSize="25sp"
+        android:layout_below="@+id/editTextIn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp" />
+
+    <Button
+        android:id="@+id/buttonSpeak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textViewOut"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="58dp"
+        android:text="@string/spklabel" />
+
+    <Button
+        android:id="@+id/buttonListen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonSpeak"
+        android:layout_alignBottom="@+id/buttonSpeak"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginEnd="40dp"
+        android:text="@string/listlabel" />
+</RelativeLayout>
